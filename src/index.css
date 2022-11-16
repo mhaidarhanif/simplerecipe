@@ -1,0 +1,21 @@
+html {
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.max-w-lg {
+  width: 100%;
+  max-width: 500px;
+}
