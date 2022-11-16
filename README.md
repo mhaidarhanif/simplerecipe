@@ -39,10 +39,12 @@ I want a simple recipe app. Because it's hard to organize recipes that I cook ev
 
 ### Features/Limitations
 
-- No need to register/login
-- App can work offline
-- Add new recipe
-- List all my recipes
+- [x] No need to register/login
+- [x] App can work offline
+- [x] List all my recipes
+- [x] See recipe by id
+- [x] Add new recipe
+- [ ] Delete recipe
 
 ### Process and Data
 
