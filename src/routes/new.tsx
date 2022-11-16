@@ -3,8 +3,6 @@ import { createNewRecipe } from "../models/recipe";
 import { Recipe } from "../types/recipe";
 
 export const action = async ({ request }: { request: any }) => {
-  console.log("Create new recipe!");
-
   const formData = await request.formData();
 
   const recipeData: Recipe = {
@@ -13,8 +11,6 @@ export const action = async ({ request }: { request: any }) => {
   };
 
   const recipe = await createNewRecipe(recipeData);
-
-  console.log({ recipe });
 
   return redirect(`/recipes/${recipe.id}`);
 };

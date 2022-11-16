@@ -39,8 +39,6 @@ export const createNewRecipe = async (recipe: Recipe): Promise<Recipe> => {
   const lastRecipe: Recipe = recipes[lastIndex];
   const lastId: number = lastRecipe?.id || 0;
 
-  console.log({ lastIndex, lastRecipe, lastId });
-
   const newRecipe = {
     id: lastId + 1,
     title: recipe.title,

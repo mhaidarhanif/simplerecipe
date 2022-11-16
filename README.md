@@ -19,6 +19,7 @@
    - Implement routes
    - Implement components
    - Implement features
+   - Testing
    - Bug fixing
 5. Deploy and Publish Application
    - Determine server stack
