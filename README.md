@@ -1,4 +1,6 @@
-# Workflow
+# Simple Recipe
+
+## Workflow
 
 1. Problem Statement / Specification / Abstract
    - Users / Customers
@@ -9,7 +11,7 @@
    - User Research
    - Validate the Idea / Solution
 
-## Cooking Recipe
+## Details
 
 ### Problem
 
@@ -27,5 +29,11 @@ I want a simple recipe app. Because it's hard to organize recipes that I cook ev
 - App can work offline
 - Add new recipe
 - List all my recipes
+
+### Process and Data
+
+![Process and Data](process-data.png)
+
+
 
 
